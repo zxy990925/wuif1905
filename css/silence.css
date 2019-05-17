@@ -1,0 +1,16 @@
+.silde{
+    width: 244px;
+    background-color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.title{
+    height: 41px;
+    border-bottom: 1px solid #e4e3e3;
+    line-height: 41px;
+    color: #333333;
+    font-size: 16px;
+    position: relative;
+}
