@@ -685,7 +685,7 @@ img{
     background: #333333;
     float: left;
 }
-.shengming .wxgzh , .wx{
+.shengming .wxgzh  .wx{
     width: 100px;
     height: 100px;
     float: left;
@@ -708,3 +708,4 @@ img{
     color: #73777a;
     font-size: 14px;
 }
+
