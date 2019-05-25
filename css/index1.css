@@ -327,6 +327,13 @@ img{
     display: none;
     padding: 5px 0;
 }
+
+.new-right{
+    width: 260px;
+    height: auto;
+    float:right;
+    border-radius: 5px;
+    padding: 10px;}
 .silde{
     width: 244px;
     background-color: #ffffff;
@@ -398,7 +405,7 @@ img{
 .main{
     width: 1200px;
     height: auto;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 .main-left{
@@ -407,7 +414,6 @@ img{
     min-height: 600px;
     float: left;
     background: #ffffff;
-    margin-left: 10px;
     border-radius: 5px;
 
 }
@@ -582,7 +588,6 @@ img{
     height: auto;
     float: left;
     background: #ffffff;
-    margin-left: 30px;
     border-radius: 5px;
     padding: 10px;
     margin-right: 20px;

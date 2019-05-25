@@ -24,6 +24,12 @@ img{
 }
 
 /*默认样式*/
+.box{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
 .header{
     width: 100%;
     height: 60px;
@@ -64,7 +70,7 @@ img{
 
 
 .silde{
-    width: 244px;
+    width: 210px;
     background-color: #ffffff;
     float: left;
     border-radius: 5px;
@@ -149,7 +155,7 @@ img{
 }
 .img{
     margin-top: 20px;
-    width: 283px;
+    width: 250px;
     height: 118px;
     float: left;
 }
