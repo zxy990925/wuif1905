@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <title>zxy博客</title>
     <link rel="stylesheet" href="./css/index1.css">
+    <script src="js/index.js"></script>
+    <script src="js/animate.js"></script>
 </head>
 <body>
 <!--内宽-->
 <div class="header">
     <div class="header-box">
-        <h1><a href="">zxy博客</a></h1>
+        <h1><a href=""  id="home">zxy博客</a></h1>
         <ul class="nav">
             <li><a href="./index.html" style="color: #00c1de" >网站首页</a></li>
             <li><a href="./diary.html">博客日志</a></li>
@@ -33,32 +35,32 @@
             <ul class="banner-img">
                 <li>
                     <a href="">
-                        <img src="./image/wu1.jpg" alt="">
+                        <img src="./image/wu1.jpg" alt="" class="xiaowu">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./image/wu1.jpg" alt="">
+                        <img src="./image/wu1.jpg" alt="" class="xiaowu">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./image/wu1.jpg" alt="">
+                        <img src="./image/wu4.jpg" alt="" class="xiaowu">
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./image/wu1.jpg" alt="">
+                        <img src="./image/wu3.jpg" alt="" class="xiaowu">
                     </a>
                 </li>
             </ul>
-            <div class="left-btn">
+            <div class="left-btn" style="z-index: 1000">
                 <img src="./image/left.png" alt="">
             </div>
-            <div class="right-btn">
+            <div class="right-btn" style="z-index: 1000">
                 <img src="./image/right.png" alt="">
             </div>
-            <ul class="btn-list">
+            <ul class="btn-list" style="z-index: 1000">
                 <li></li>
                 <li></li>
                 <li></li>
@@ -95,7 +97,7 @@
     <div class="diary">
         <div class="diary-left">
             <ul class="diary-list">
-                <li><a>个人博客日记</a></li>
+                <li><a style="text-decoration: underline">个人博客日记</a></li>
                 <li><a>css|html5</a></li>
                 <li><a>网站建设</a></li>
                 <li><a>推荐工具</a></li>
@@ -168,7 +170,7 @@
         </div>
         <div class="silde">
             <div class="title">
-                最近更新
+                <a href="">最近更新</a>
             </div>
             <ul class="update">
                 <li><a href="">【个人博客空间申请】金牛云服，免费领空间啦</a></li>
@@ -184,7 +186,7 @@
         <div class="main-left">
             <div class="recommend">
                 <div class="title">
-                    特别推荐
+                    <a href="">特别推荐</a>
                     <ul class="recommend-category">
                         <li><a href="">帝国cms</a></li>
                         <li>/</li>
@@ -271,7 +273,8 @@
         <div class="main-right">
             <div class="silde">
                 <div class="title">
-                    最新排行
+                    <a href="">最新排行</a>
+
                 </div>
                 <div class="silde-img">
                     <a href="">
@@ -302,7 +305,7 @@
     <!--bottom-->
     <div class="new-left">
         <div class="title">
-            最新博文
+            <a href="">最新博文</a>
         </div>
         <div class="new">
             <div class="new-title">
@@ -542,6 +545,8 @@
     </div>
     <!--bottom-->
 </div>
+
+
 
 </body>
 </html>

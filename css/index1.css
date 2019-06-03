@@ -14,7 +14,6 @@ body{
 
 }
 a{
-    color: #ffffff;
     text-decoration: none;
 }
 img{
@@ -331,7 +330,7 @@ img{
 .new-right{
     width: 260px;
     height: auto;
-    float:right;
+    float:left;
     border-radius: 5px;
     padding: 10px;}
 .silde{
@@ -590,7 +589,7 @@ img{
     background: #ffffff;
     border-radius: 5px;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .new-title{
     height: 41px;
@@ -690,3 +689,5 @@ img{
     height: auto;
 
 }
+
+
